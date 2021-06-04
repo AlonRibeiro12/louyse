@@ -1,0 +1,12 @@
+{
+    "type": "postgres",
+    "host":"motty.db.elephantsql.com",
+    "username": "xshffftr", 
+    "password": "3ZsX4_BPo6HmKGvAV_M3rYuT-AtpowWb",
+    "database": "xshffftr", 
+    "migrations": ["./src/database/migrations/**.ts"],
+    "entities": ["./src/entities/**.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+}

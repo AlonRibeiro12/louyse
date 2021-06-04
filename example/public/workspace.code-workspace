@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Sandbox",
+			"uri": "sandbox:/"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

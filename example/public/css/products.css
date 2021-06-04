@@ -1,0 +1,248 @@
+
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: -6px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #766a6a;
+    font-size: 24px;
+  }
+  
+  nav ul li a:hover {
+    color: #bd516b;
+  } 
+
+
+ 
+
+ .myGrid{
+  background: #D5D5D5;
+  height: 103em;
+}
+  .grid-item {
+ margin: 0px 0px 218px 0px;
+width: 100%;
+height: 94em;
+}
+.grid-item-border {border:0px solid #1b90bb;	padding: 109px;	 height: 101em; margin: 0px;		background:#FFFFFF;	color:#000000;}
+
+ 
+/*Products Details */
+
+.showcase {
+  margin-top: 2rem;
+  margin-left: 2.5em;
+
+}
+
+.showcase .showcase {  
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr;  
+  grid-template-rows: 50px 50px;  
+}
+
+.showcase .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase .left  {
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  height: 45rem;
+  padding: 3rem;
+
+}
+
+.showcase .left {
+ 
+  height: 100%;
+  width: 100%;
+}
+
+.main #slide-products {
+  height: 150px;
+  width: 250px;
+}
+
+.showcase .stock-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8.2rem;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: -8em;
+  z-index: -1;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.showcase .stock {
+  height: 20rem;
+
+  width: 230px;
+  margin-bottom: 5em;
+  background-color: transparent;
+  text-align: center;
+  transition: transform .3s;
+}
+
+.stock:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 26px 0px  rgba(245, 37, 127, 0.3);
+}
+
+.stock #Img-products {
+  width: 407px;
+  height: 366px;
+  margin-left: -6em;
+  margin-top: -21px;
+  z-index: -1;
+}
+
+.showcase .stock img {
+  height: 100%;
+  object-fit: contain;
+ 
+}
+ 
+
+@media (min-width: 280px)  and (max-width: 655px){
+
+  nav {
+    display: flex;
+   justify-content: flex-end;
+   flex: 1;
+   width: 177%;
+   margin-left: -2em;
+   margin-top: -2.2em;
+   height: 14em;
+   }
+   
+   
+   nav ul {
+     width: 100%;
+     background: #da738b;
+     margin-top: 0;
+  
+     text-align: center;
+ 
+     font-family: Open Sans;
+     font-style: italic;
+    
+   }
+   nav ul li {
+     display: block;
+    
+   }
+
+   nav ul li a{
+   color: #fff;
+
+}
+
+.myGrid{
+  background: #D5D5D5;
+  height: 296em;
+  width: min-content;
+}
+
+.grid-item {
+  margin: 0px 0px 218px 0px;
+ width: 100%;
+ height: 234rem;
+ }
+
+ .grid-item-border {
+    border:none;
+  	padding: 163px; 
+    height: 293em;	
+    margin-left: 7em;
+    margin: 0px;	
+    background:#FFFFFF;
+    color:#000000;}
+
+
+    .showcase .left {
+      height: 10%;
+      width: 10%;
+      margin-top: -8em;
+      margin-left: 14em;
+  }
+  
+    .stock-products {
+      display: inline-block;
+      overflow-y: auto;
+      justify-content: flex-end;
+      scrollbar-width: none;
+      margin-left: -2em;
+    
+    }
+    
+    .showcase {
+      margin-top: 2rem;
+      width: 23em;
+      margin-left: -13.5em;
+    }
+    
+    .stock {
+      display: block;
+    
+    }
+  
+    .btn_support {
+      float: right;
+      width: 153px;
+      margin-right: 9em;
+      height: 56px;
+      margin-bottom: 26px;
+      background: #ffc0dc;
+      box-shadow: 2px 2px 26px 0px rgb(245 37 127 / 30%);
+      border-radius: 68px;
+      text-align: center;
+      color: #fff;
+      outline: none;
+      border: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: fixed;
+      bottom: 30px;
+      right: 10px;
+      cursor: pointer;
+  }
+
+  .chat_support {
+    position: fixed;
+    margin-top: 26px;
+    z-index: 5;
+    margin-right: 1.8em;
+    width: 334px;
+    height: 419px;
+    background:  linear-gradient(#ffd5dd, #fff5f7);
+    border-radius: 6px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    right: 10px;
+    animation: up 1s;
+  }
+
+}
+

@@ -1,0 +1,19 @@
+<svg width="218" height="324" viewBox="0 0 218 324" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="218" height="263" fill="#C4C4C4"/>
+<path d="M0 0H59L28 23L0 46V0Z" fill="#3F3D56"/>
+<path d="M218 263H159L190 240L218 217V263Z" fill="#FF0F7E"/>
+<rect y="263" width="218" height="45" fill="#6E3C3C" fill-opacity="0.71"/>
+<path d="M218 323.5H208L213.254 317.5L218 311.5V323.5Z" fill="#483E40"/>
+<rect y="305" width="218" height="19" fill="#EEDADA"/>
+<rect y="305" width="26" height="19" fill="#1B0F33"/>
+<rect x="26" y="305" width="26" height="19" fill="white"/>
+<rect x="52" y="305" width="26" height="19" fill="#290512"/>
+<rect x="78" y="305" width="26" height="19" fill="white"/>
+<rect x="156" y="305" width="26" height="19" fill="#290512"/>
+<rect x="130" y="305" width="26" height="19" fill="white"/>
+<rect x="182" y="305" width="26" height="19" fill="white"/>
+<rect x="104" y="305" width="26" height="19" fill="#1B0F33"/>
+<path d="M213 319L218 314V324H208L213 319Z" fill="#B36362"/>
+<path d="M213 309.5L208 305H218V314L213 309.5Z" fill="#1B0F33"/>
+<rect y="261" width="218" height="5" fill="#FFF7F7"/>
+</svg>
